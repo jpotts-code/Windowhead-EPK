@@ -73,6 +73,15 @@ body {
 }
 .Terrestrials {
     padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Terrestrials img {
+    max-height: 40vmax;
+    size: contain;
+    padding-left: 30px;
+    padding-right: 130px;
 }
 
 .live-brunswick {
