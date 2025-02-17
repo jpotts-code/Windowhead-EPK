@@ -2,11 +2,9 @@ body {
     background-color: black;
     color: antiquewhite;
     font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
-
-/* EP-artwork with background */
 .EP-artwork {
     background-image: url(Images/College-black-white.png);
     background-size: cover;
@@ -18,20 +16,18 @@ body {
     width: 100vw;
     max-height: 100%;
     max-width: 100%;
-    aspect-ratio: 1;
+    aspect-ratio: 1; 
     position: relative;
 }
 
-/* Headings inside EP-artwork */
 .EP-artwork h2 {
     text-align: left;
     padding-top: 70px;
     padding-left: 50px;
     color: rgb(103, 103, 223);
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px black; 
 }
 
-/* Image inside EP-artwork */
 .EP-artwork img {
     display: block;
     margin: 0 auto;
@@ -43,7 +39,6 @@ body {
     border: 4px solid black;
 }
 
-/* Press section */
 .Press {
     width: 100%;
     height: 100vh;
@@ -53,42 +48,38 @@ body {
     display: flex;
     flex-direction: column-reverse;
     font-weight: 100;
-    font-size: larger;
+    font-size: larger;  
+    
 }
-
 .Press p {
     margin: 30px;
     color: white;
-    text-shadow: 2px 2px 4px red;
+    text-shadow: 2px 2px 4px red; 
 }
 
-/* Introduction section */
 .Introduction {
     font-size: medium;
     padding: 30px;
 }
 
-/* Press photo section */
 .Press-Photo {
     display: flex;
     justify-content: center;
     height: 100vh;
     width: 100%;
+    
 }
-
 .Press-Photo img {
     max-width: 100%;
     max-height: 100%;
     margin: 60px;
 }
-
-/* Terrestrials section */
 .Terrestrials {
     padding: 30px;
     display: flex;
     justify-content: space-between;
+    
 }
-
 .Terrestrials img {
     max-height: 40vmax;
     size: contain;
@@ -96,93 +87,19 @@ body {
     padding-right: 130px;
 }
 
-/* Live newcross section */
-.live-newcross {
+.live-newcrossinn {
     display: flex;
     justify-content: center;
     height: 100vh;
     width: 100%;
+    
 }
-
 .live-newcrossinn img {
     max-width: 100%;
     max-height: 100%;
     margin: 60px;
 }
-
-/* Contact section */
 .contact {
     text-align: center;
     padding-bottom: 60px;
-}
-
-/* Media Queries for Responsiveness */
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
-    /* Adjust the padding and margins of the content */
-    .EP-artwork h2 {
-        padding-left: 20px;
-        padding-top: 30px;
-    }
-
-    .EP-artwork img {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        max-height: 60%; /* Slightly adjust the size for mobile */
-    }
-
-    .Press {
-        font-size: 16px; /* Adjust font size for readability */
-    }
-
-    .Press p {
-        margin: 20px;
-    }
-
-    .Press-Photo img {
-        margin: 20px;
-    }
-
-    .Terrestrials {
-        flex-direction: column; /* Stack the items vertically on mobile */
-        padding: 15px;
-    }
-
-    .Terrestrials img {
-        padding-left: 0;
-        padding-right: 0;
-        max-height: 30vmax; /* Slightly reduce image size */
-    }
-
-    .live-newcross {
-        height: auto; /* Allow this section to scale based on content */
-    }
-
-    .contact {
-        padding-bottom: 30px;
-    }
-}
-
-/* Further fine-tuning for very small screens (optional) */
-@media (max-width: 480px) {
-    .EP-artwork h2 {
-        font-size: 18px;
-    }
-
-    .Press p {
-        font-size: 14px;
-    }
-
-    .Press-Photo img {
-        margin: 10px;
-    }
-
-    .Terrestrials img {
-        max-height: 25vmax; /* Further reduce the image size */
-    }
-
-    .live-newcrossinn img {
-        margin: 20px;
-    }
-}
+} 
