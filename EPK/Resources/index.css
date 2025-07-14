@@ -128,7 +128,7 @@ body {
     max-height: 100%;
     margin: 60px;
 }
-.Terrestrials {
+/*.Terrestrials {
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -139,6 +139,47 @@ body {
     size: contain;
     padding-left: 30px;
     padding-right: 130px;
+}*/
+
+.Terrestrials {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 30px;
+    gap: 20px; /* Adds space between text and image */
+    flex-wrap: wrap; /* Allows stacking on small screens */
+}
+
+.Terrestrials .text {
+    flex: 1 1 50%;
+    min-width: 250px;
+    max-width: 60%;
+    box-sizing: border-box;
+}
+
+.Terrestrials img {
+    flex: 1 1 50%;
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+    align-self: flex-start;
+    box-sizing: border-box;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 800px) {
+    .Terrestrials {
+        flex-direction: column;
+        align-items: center;
+    }
+    .Terrestrials .text,
+    .Terrestrials img {
+        max-width: 100%;
+        min-width: 0;
+    }
+    .Terrestrials img {
+        margin-top: 20px;
+    }
 }
 
 .live-newcrossinn {
