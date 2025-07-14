@@ -96,7 +96,7 @@ body {
     display: flex;
     flex-direction: column;
     font-weight: 100;
-    font-size: clamp(1rem, 11.5rem, 2rem); /* Use sensible min/max */
+    font-size: clamp(1rem, 1.5rem, 2rem); /* Use sensible min/max */
     box-sizing: border-box;
     padding: 1rem;
     word-break: break-word;
