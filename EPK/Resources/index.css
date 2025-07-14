@@ -52,6 +52,7 @@ body {
     max-width: 100%;
     aspect-ratio: 1; 
     position: relative;
+    box-sizing: border-box;
 }
 
 .EP-artwork h2 {
@@ -73,18 +74,37 @@ body {
     border: 4px solid black;
 }
 
-.Press {
+/*.Press {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(Images/JOASCRAMZBIG.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     font-weight: 100;
-    font-size: large;  
-    
+    font-size: clamp(0.2rem, 1.2vw, 1.5rem);
 }
+    */
+
+    .Press {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(Images/JOASCRAMZBIG.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    font-size: clamp(1rem, 11.5rem, 2rem); /* Use sensible min/max */
+    box-sizing: border-box;
+    padding: 1rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+    
+
 .Press p {
     margin: 30px;
     color: white;
