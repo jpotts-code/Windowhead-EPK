@@ -16,6 +16,14 @@ html {
   html {
     font-size: 4vw; /* Makes text responsive on small screens */
   }
+  {
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6, span, div {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
 }
 img {
     max-width: 100%;
