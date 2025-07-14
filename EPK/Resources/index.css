@@ -1,3 +1,29 @@
+* {
+  box-sizing: border-box; /* Helps prevent overflow in general */
+}
+
+body {
+  word-break: break-word; /* Breaks long words to fit the container */
+  overflow-wrap: break-word; /* Alternative property for breaking words */
+  hyphens: auto; /* Adds hyphens if supported, for better word breaking */
+}
+
+html {
+  font-size: 16px; /* or use a responsive unit like 4vw */
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 4vw; /* Makes text responsive on small screens */
+  }
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
 body {
     background-color: black;
     color: antiquewhite;
