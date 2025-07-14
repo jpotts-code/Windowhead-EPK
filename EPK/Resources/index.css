@@ -46,9 +46,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     font-weight: 100;
-    font-size: larger;  
+    font-size: large;  
     
 }
 .Press p {
