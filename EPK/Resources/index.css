@@ -40,7 +40,7 @@ body {
     padding: 0%;
 }
 .EP-artwork {
-    background-image: url(Images/College-black-white.png);
+    background-image: url(Images/whcollageblackwhite.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -169,7 +169,7 @@ body {
 /* Responsive: stack on small screens */
 @media (max-width: 800px) {
     .Terrestrials {
-        flex-direction: column;
+        flex-direction: row-reverse;
         align-items: center;
     }
     .Terrestrials .text,
